@@ -5,6 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
+      # Existing functionality to assit with git steps
         uses: actions/checkout@v4
       - name: Cypress run
       # This actually assits with installing npm
