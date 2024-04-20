@@ -7,6 +7,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Cypress run
+      # This actually assits with installing npm
         uses: cypress-io/github-action@v6
         with:
           start: npm start
